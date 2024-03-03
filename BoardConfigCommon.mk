@@ -189,6 +189,7 @@ DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest.xml
 DEVICE_MATRIX_FILE += $(COMMON_PATH)/compatibility_matrix.xml
 ODM_MANIFEST_SKUS += nfc
 ODM_MANIFEST_NFC_FILES := $(COMMON_PATH)/manifest_nfc.xml
+DEVICE_MANIFEST_FILE += $(COMMON_PATH)/configs/hidl/vendor.qti.esepowermanager@1.1-service.xml
 
 # Wi-Fi
 BOARD_WLAN_DEVICE := qcwcn
